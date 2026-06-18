@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"runtime"
 
-	cb "github.com/mirecl/catboost-cgo/catboost"
+	cb "github.com/akhtarCareem/catboost-cgo/catboost"
 )
 
 func main() {

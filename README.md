@@ -1,6 +1,6 @@
-[![PkgGoDev](https://pkg.go.dev/badge/mod/github.com/mirecl/catboost-cgo)](https://pkg.go.dev/mod/github.com/mirecl/catboost-cgo) ![GitHub Release](https://img.shields.io/github/v/release/mirecl/catboost-cgo)
-![](https://img.shields.io/github/go-mod/go-version/mirecl/catboost-cgo) [![CI](https://github.com/mirecl/catboost-cgo/actions/workflows/ci.yml/badge.svg)](https://github.com/mirecl/catboost-cgo/actions/workflows/ci.yml) [![codecov](https://codecov.io/github/mirecl/catboost-cgo/graph/badge.svg?token=HUG4WWSSZN)](https://codecov.io/github/mirecl/catboost-cgo)
-[![Go Report Card](https://goreportcard.com/badge/github.com/mirecl/catboost-cgo)](https://goreportcard.com/report/github.com/mirecl/catboost-cgo) [![Mentioned in Awesome Go](https://awesome.re/mentioned-badge.svg)](https://github.com/avelino/awesome-go)  \
+[![PkgGoDev](https://pkg.go.dev/badge/mod/github.com/akhtarCareem/catboost-cgo)](https://pkg.go.dev/mod/github.com/akhtarCareem/catboost-cgo) ![GitHub Release](https://img.shields.io/github/v/release/mirecl/catboost-cgo)
+![](https://img.shields.io/github/go-mod/go-version/mirecl/catboost-cgo) [![CI](https://github.com/akhtarCareem/catboost-cgo/actions/workflows/ci.yml/badge.svg)](https://github.com/akhtarCareem/catboost-cgo/actions/workflows/ci.yml) [![codecov](https://codecov.io/github/mirecl/catboost-cgo/graph/badge.svg?token=HUG4WWSSZN)](https://codecov.io/github/mirecl/catboost-cgo)
+[![Go Report Card](https://goreportcard.com/badge/github.com/akhtarCareem/catboost-cgo)](https://goreportcard.com/report/github.com/akhtarCareem/catboost-cgo) [![Mentioned in Awesome Go](https://awesome.re/mentioned-badge.svg)](https://github.com/avelino/awesome-go)  \
 ![](https://img.shields.io/badge/platform-Linux-black?logo=linux&logoColor=white) ![](https://img.shields.io/badge/platform-MacOS-black?logo=apple&logoColor=white)
 
 ## CatBoost-Cgo
@@ -95,10 +95,10 @@ For more information, see <https://catboost.ai/en/docs/concepts/c-plus-plus-api_
 
 ## Installation
 
-1) Install **[catboost-cgo](https://github.com/mirecl/catboost-cgo)**:
+1) Install **[catboost-cgo](https://github.com/akhtarCareem/catboost-cgo)**:
 
 ```go
-go get github.com/mirecl/catboost-cgo
+go get github.com/akhtarCareem/catboost-cgo
 ```
 
 2) Download CatBoost shared library from release page: <https://github.com/catboost/catboost/releases>
@@ -107,7 +107,7 @@ go get github.com/mirecl/catboost-cgo
 
 ```go
 import (
- cb "github.com/mirecl/catboost-cgo/catboost"
+ cb "github.com/akhtarCareem/catboost-cgo/catboost"
 )
 
 func main(){
