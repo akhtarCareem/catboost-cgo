@@ -1,4 +1,4 @@
-module github.com/mirecl/catboost-cgo
+github.com/akhtarCareem/catboost-cgo
 
 go 1.22
 
